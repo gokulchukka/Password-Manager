@@ -1,0 +1,7 @@
+project: password-manager
+python: ">=3.10,<3.12"
+dependencies:
+  - pillow==9.5.0
+  - pyperclip==1.8.2
+metadata:
+  description: "Dependencies for the Password Manager app using Tkinter."
