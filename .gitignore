@@ -1,0 +1,35 @@
+# ---------------------------
+# Python cache and bytecode
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------------------
+# Virtual environment folders
+# ---------------------------
+env/
+venv/
+ENV/
+.venv/
+.idea/
+.vscode/
+
+# ---------------------------
+# OS-specific files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Project-specific files
+# ---------------------------
+# Do not upload saved passwords
+data.txt
+
+# ---------------------------
+# Logs and temporary files
+# ---------------------------
+*.log
+*.tmp

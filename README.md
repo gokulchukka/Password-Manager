@@ -1,26 +1,24 @@
-# 🔐 Password Manager (Tkinter)
+# 🛡️ Password Manager (Tkinter)
 
-A simple and efficient **Password Manager** built using **Python and Tkinter**.  
-It allows you to generate secure passwords, copy them to your clipboard, and save login credentials locally.
+A simple and secure **Password Manager** built using Python’s **Tkinter** library.
+
+This application allows you to:
+
+- Generate strong random passwords  
+- Copy passwords automatically to clipboard  
+- Save website, email, and password details  
+- Store data safely in a local `data.txt` file  
 
 ---
 
 ## 🚀 Features
 
-- Generate strong, random passwords
-- Copy passwords automatically to clipboard
-- Save website, email, and password details into a local text file (`data.txt`)
-- Clean and user-friendly graphical interface using Tkinter
+### 🔐 Password Generator
+- Creates secure passwords using:
+  - Uppercase and lowercase letters  
+  - Numbers  
+  - Symbols  
+- Password is automatically copied to clipboard using `pyperclip`.
 
----
-
-## 🧰 Requirements
-
-- Python 3.x
-- Libraries:
-  - `tk`
-  - `pyperclip`
-
-Install all dependencies with:
-```bash
-pip install -r requirements.txt
+### 💾 Save Credentials
+- Saves the data in the format:
